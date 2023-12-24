@@ -1,16 +1,17 @@
-# hw4
+# Flutter Project - HW4
 
-A new Flutter project.
+This Flutter project demonstrates a multi-screen application with network requests, SQLite database, and navigation. It consists of three screens:
 
-## Getting Started
+1. **Welcome Screen:**
+   - Displays a quick tutorial on the first launch.
+   - Uses Shared Preferences to ensure the tutorial is only shown once.
 
-This project is a starting point for a Flutter application.
+2. **Second Screen:**
+   - Fetches user information from a remote API (randomuser.me).
+   - Allows users to fetch more users from the API.
+   - Stores selected user data into a local SQLite database.
 
-A few resources to get you started if this is your first Flutter project:
+3. **Third Screen:**
+   - Retrieves and displays user information from the SQLite database.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
